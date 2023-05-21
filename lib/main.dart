@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_app/ui/screens/exports_screens.dart';
 
 import 'config/theme/app_theme.dart';
-import 'ui/screens/home/home.dart';
 
 void main() {
   runApp(const MainApp());
@@ -16,6 +16,10 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: AppTheme(selectedColor: 1).getTheme(),
       home: const HomeScreen(),
+      routes: {
+        '/buttons': (context) => const ButtonsScreen(),
+        '/cards': (context) => const CardsScreen()
+      },
     );
   }
 }

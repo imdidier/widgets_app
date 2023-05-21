@@ -8,10 +8,11 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text('Flutter + Material 3'),
-        ),
-        body: const _HomeView());
+      appBar: AppBar(
+        title: const Text('Flutter + Material 3'),
+      ),
+      body: const _HomeView(),
+    );
   }
 }
 
@@ -53,7 +54,10 @@ class _CustomListTitle extends StatelessWidget {
         color: colors.primary,
       ),
       onTap: () {
-        //TODO: navegar otra pantalla
+        Navigator.pushNamed(
+          context,
+          item.link,
+        );
       },
     );
   }
