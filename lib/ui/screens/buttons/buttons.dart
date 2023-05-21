@@ -14,7 +14,7 @@ class ButtonsScreen extends StatelessWidget {
       body: const _ButtonsView(),
       floatingActionButton: FloatingActionButton(
         onPressed: () => context.pop(),
-        child: const Icon(Icons.arrow_back_ios),
+        child: const Icon(Icons.arrow_back_ios_new),
       ),
     );
   }
