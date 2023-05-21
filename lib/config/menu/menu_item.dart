@@ -27,4 +27,10 @@ const List<MenuItem> appMenuItems = [
     subTitle: 'Las tarjetas en Flutter',
     title: 'Cards',
   ),
+  MenuItem(
+    icon: Icons.credit_card,
+    link: '/progress',
+    subTitle: 'Progress Indicators in Flutter generales y controlados',
+    title: 'ProgressIndicators',
+  ),
 ];
