@@ -16,6 +16,12 @@ class MenuItem {
 
 const List<MenuItem> appMenuItems = [
   MenuItem(
+    icon: Icons.countertops_outlined,
+    link: '/counter',
+    subTitle: 'Iniciando con el gestor de estados riverpood',
+    title: 'Contador con riverpood',
+  ),
+  MenuItem(
     icon: Icons.smart_button,
     link: '/buttons',
     subTitle: 'Los botones en Flutter ',
@@ -56,5 +62,17 @@ const List<MenuItem> appMenuItems = [
     link: '/app-tutorial',
     subTitle: 'Tutorial introductorio a un app',
     title: 'Introducción a la aplicación',
+  ),
+  MenuItem(
+    icon: Icons.list_alt_outlined,
+    link: '/infinite-scroll',
+    subTitle: 'Listas infinitas y pull to refresh',
+    title: 'Scroll infinito ',
+  ),
+  MenuItem(
+    icon: Icons.update_disabled,
+    link: '/theme-changer',
+    subTitle: 'Cambiar el tema del app, utilizando gestor de estado riverpood',
+    title: 'Cambiar tema del app',
   ),
 ];
