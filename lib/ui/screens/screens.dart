@@ -1,4 +1,4 @@
-export 'package:widgets_app/ui/screens/theme_chander/theme_changer.dart';
+export 'package:widgets_app/ui/screens/theme_changer/theme_changer.dart';
 export 'package:widgets_app/ui/screens/counter/counter.dart';
 export 'package:widgets_app/ui/screens/animated/animated.dart';
 export 'package:widgets_app/ui/screens/app_tutorial/app_tutorial.dart';
