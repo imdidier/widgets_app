@@ -46,9 +46,15 @@ const List<MenuItem> appMenuItems = [
     title: 'Animated container',
   ),
   MenuItem(
-    icon: Icons.car_crash_rounded,
+    icon: Icons.car_crash_outlined,
     link: '/ui-controls',
     subTitle: 'Controles de Flutter',
     title: 'UI controls + Titles',
+  ),
+  MenuItem(
+    icon: Icons.recommend_outlined,
+    link: '/app-tutorial',
+    subTitle: 'Tutorial introductorio a un app',
+    title: 'Introducción a la aplicación',
   ),
 ];
